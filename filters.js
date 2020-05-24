@@ -7,9 +7,9 @@ img.onload = function() {
 function draw(img) {
   var canvas = document.getElementById('canvas');
   var ctx = canvas.getContext('2d');
-  ctx.drawImage(img, 0, 0);
+  ctx.drawImage(img, 0, 0, img.width, img.height, 0, 0, canvas.width, canvas.height);
   img.style.display = 'none';
-  var imageData = ctx.getImageData(0, 0, 5845, 3590, 0, 0, canvas.width, canvas.height);
+  var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   var data = imageData.data;
     
   var invert = function() {
