@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>My Image Filter</title>
+		<script src="images.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	</head>
+
+	<body>
+		<center>
+			<h1>My Image Filters!</h1>
+	 		<canvas id="canvas" width="500" height="500"></canvas>
+	 		<br/>
+
+			<button type="button" class="btn btn-primary" id="blackAndWhite">Black and White</button>
+			<button type="button" class="btn btn-primary" id="invert">Invert</button>
+			<button type="button" class="btn btn-primary" id="sepia">Sepia</button>
+			<button type="button" class="btn btn-primary" id="threshold">Threshold</button>
+			<button type="button" class="btn btn-primary" id="red">Red</button>
+			<button type="button" class="btn btn-primary" id="green">Green</button>
+			<button type="button" class="btn btn-primary" id="blue">Blue</button>
+			<button type="button" class="btn btn-primary" id="colorSwatch">Color Swatch</button>
+			<button type="reset" class="btn btn-primary" id="reset">Reset</button>
+		</center>
+
+	</body>
+
+</html>
