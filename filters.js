@@ -125,7 +125,4 @@ function draw(img) {
   colorSwatchBtn.addEventListener('click', colorSwatch);
   var resetBtn = document.getElementById('reset');
   resetBtn.addEventListener('click', reset);
-
-  var fullQuality = canvas.toDataURL('image/jpeg', 1.0);
-  console.log(fullQuality);
 }
