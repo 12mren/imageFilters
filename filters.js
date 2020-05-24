@@ -1,5 +1,5 @@
 var img = new Image();
-img.src = 'image.jpeg';
+img.src = 'timon-klauser-3MAmj1ZKSZA-unsplash.jpg';
 img.onload = function() {
   draw(this);
 };
