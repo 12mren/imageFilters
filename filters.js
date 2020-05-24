@@ -103,7 +103,7 @@ function draw(img) {
 
   var reset = function() {
     ctx.drawImage(img, 0, 0);
-    imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    imageData = ctx.getImageData(0, 0, img.width, img.height, 0, 0, canvas.width, canvas.height);
     data = imageData.data;
   }
 
